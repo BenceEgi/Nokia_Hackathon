@@ -1,8 +1,3 @@
-from re import sub
-import time
-
-start = time.time()
-
 with open('./input.txt', 'r') as f:
 
     for input in f:
@@ -13,5 +8,3 @@ with open('./input.txt', 'r') as f:
             print(f"YES, {len(set(input_formatted))}")
         else:
             print("NO, -1")
-
-print(time.time() - start)

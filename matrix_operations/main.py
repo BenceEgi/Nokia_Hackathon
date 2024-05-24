@@ -22,6 +22,6 @@ for i in input:
   elif (match('[0-9]', i)):
     list.append([int(k) for k in split("[ ]+", i)])
 
-exec("result = (A*B).values")
+exec("result = (A+B).values")
 print(result)
 print(time.time() - start)

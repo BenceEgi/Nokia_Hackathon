@@ -1,0 +1,16 @@
+1. Feladat:
+     s = 300m
+     t1 = 20s
+     t2 = 5s
+     v = ?
+
+     v = s/t1
+     v = 300m / 20s
+     v = 15m/s
+     l = t2 * v
+     l = 5s * 15m/s
+     l = 75m
+
+     Tehát a vonat hossza 75m.
+
+2. Feladat:

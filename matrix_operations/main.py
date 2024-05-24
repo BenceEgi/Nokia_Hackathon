@@ -1,13 +1,17 @@
+from Matrix import Matrix
+
 with open('./input.txt', 'r') as f:
   input = f.read()
-print(input)
+#print(input)
 
-class Matrix:
-  def __init__(self, width, height, values):
-    pass
 
-  def __add__(self, other):
-    pass
+m1 = [[1,2,3],
+      [3,4,3]]
 
-  def __mul__(self, other):
-    pass
+m2 = [[5,6,4],
+      [7,8,5]]
+
+A = Matrix(m1)
+B = Matrix(m2)
+
+print(A+B)

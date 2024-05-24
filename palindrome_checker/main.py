@@ -8,7 +8,6 @@ with open('./input.txt', 'r') as f:
 
         if input_formatted == input_formatted[::-1]:
             print(f"YES, {len(set(input_formatted))}")
-
         else:
             print("NO, -1")
 

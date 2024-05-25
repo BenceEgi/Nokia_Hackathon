@@ -20,12 +20,4 @@ class Matrix:
   def multiply(self, *args):
     print(args)
   def __mul__(self, other):
-      import itertools
-      final = []
-      if (self.col == other.col) and (self.row == other.row):
-          result = list(
-              map(self.multiply, self.values, other.values))
-          for i in range(self.row):
-              final.append(result[:self.col])
-              result = result[self.col:]
-          return Matrix(final)
+    pass

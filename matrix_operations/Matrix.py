@@ -5,19 +5,18 @@ class Matrix:
     self.col = len(values[0])
     self.values = values
 
-  def add(self, x, y):
-    return x + y
   def __add__(self, other):
-    import itertools
-    final = []
-    if (self.col == other.col) and (self.row == other.row):
-         result = list(map(self.add,itertools.chain.from_iterable(self.values), itertools.chain.from_iterable(other.values)))
-         for i in range(self.row):
-             final.append(result[:self.col])
-             result = result[self.col:]
-         return Matrix(final)
 
-  def multiply(self, *args):
-    print(args)
+    if (self.col == other.col) and (self.row == other.row):
+         return Matrix([[self.values[i][j] + other.values[i][j] for j in range(len(self.values[0]))] for i in range(len(self.values))])
+
+    else:
+      raise Exception("Az két mátrix sorainak vagy oszlopainak hossza nem egyezik meg!")
+
   def __mul__(self, other):
-    pass
+
+    if (self.col == other.row):
+      return Matrix([[sum(g*k for g,k in zip(m1_row,m2_col)) for m2_col in zip(*other.values)] for m1_row in self.values])
+
+    else:
+      raise Exception("Az első mátrix oszlopainak száma nem egyezik a második mátrix sorainak számával!")

@@ -1,4 +1,6 @@
 import time
+import math
+from queue import PriorityQueue
 
 start = time.time()
 with open('./input.txt', 'r') as f:
@@ -10,13 +12,6 @@ with open('./input.txt', 'r') as f:
   input.remove("")
   C = str(input[input.index("C")+1:input.index("")])[1:-1].replace(",","").replace("'", '').split(" ")
 
-class Node:
-  def __init__(self, x, y, values):
-
-
 print(A)
-
-def AStar():
-  pass
 
 print(time.time() - start)

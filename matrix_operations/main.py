@@ -11,7 +11,7 @@ execute = False
 
 for i in input:
 
-    if (execute):
+    if execute:
 
       if (i != ""):
         exec(f"result = {i}")
@@ -29,8 +29,8 @@ for i in input:
       exec(f"{variable_name} = Matrix({list})")
       list = []
 
-    elif (match("[a-zA-Z]", i)):
+    elif match("[a-zA-Z]", i):
       variable_name = i
 
-    elif (match('[0-9]', i)):
+    elif match('[0-9]', i):
       list.append([int(k) for k in split("[ ]+", i)])

@@ -31,34 +31,31 @@ def solve(maze):
     coordinate = My_Queue.pop()
     visited[coordinate[0]][coordinate[1]] = True
 
-    if (maze[coordinate[0]][coordinate[1]] == "G"):
-      return coordinate[2]+"G"
+    if maze[coordinate[0]][coordinate[1]] == "G":
+        return coordinate[2]+"G"
 
     for dir in Directions:
-      newRow = coordinate[0]+dir[0]
-      newCol = coordinate[1]+dir[1]
+        newRow = coordinate[0]+dir[0]
+        newCol = coordinate[1]+dir[1]
 
-      if (newRow < 0 or newRow >= Row or newCol < 0 or newCol >= Col or maze[newRow][newCol] == "#" or visited[newRow][newCol]):
-        continue
+        if newRow < 0 or newRow >= Row or newCol < 0 or newCol >= Col or maze[newRow][newCol] == "#" or visited[newRow][newCol]:
+            continue
 
-      if (dir == [0,1]):
-        My_Queue.appendleft((newRow, newCol, coordinate[2] + "R "))
+        if dir == [0,1]:
+            My_Queue.appendleft((newRow, newCol, coordinate[2] + "R "))
 
-      elif (dir == [0,-1]):
-        My_Queue.appendleft((newRow, newCol, coordinate[2] + "L "))
+        elif dir == [0,-1]:
+            My_Queue.appendleft((newRow, newCol, coordinate[2] + "L "))
 
-      elif (dir == [1, 0]):
-        My_Queue.appendleft((newRow, newCol, coordinate[2] + "D "))
+        elif dir == [1, 0]:
+            My_Queue.appendleft((newRow, newCol, coordinate[2] + "D "))
 
-      elif (dir == [-1, 0]):
-        My_Queue.appendleft((newRow, newCol, coordinate[2] + "U "))
+        elif dir == [-1, 0]:
+            My_Queue.appendleft((newRow, newCol, coordinate[2] + "U "))
 
 
-print(f"{A=}".split('=')[0])
-print(solve(A) + "\n")
+print("A\n" + solve(A) + "\n")
 
-print(f"{B=}".split('=')[0])
-print(solve(B) + "\n")
+print("B\n" + solve(B) + "\n")
 
-print(f"{C=}".split('=')[0])
-print(solve(C) + "\n")
+print("C\n" + solve(C) + "\n")

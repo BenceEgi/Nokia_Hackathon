@@ -14,6 +14,7 @@
      Tehát a vonat hossza 75m.
 
 2. Feladat:
+    320 cm2
 
 3. Feladat:
 
@@ -26,3 +27,13 @@
 7. Feladat:
 
 8. Feladat:
+    A kiskockák átlóinak hossza gyök 2cm mivel a2 + b2 = c2.
+    A két átlóban összesen 85db kocka van.
+    Van 1 közös kocka középen így egy átlóban összesen 43 kocka van.
+    Mivel tudjuk, hogy a kocka csúcsát felezi az átló így azt is tudjuk, hogy a két átló által létrehozott egyenlőszárúháromszög szögei alfa=45fok béta=90fok.
+    Ha a átlók metszéspontjából merőlegest állítunk a nagy négyzet oldalára, akkor kitudjuk számolni a négyzet oldalának a felét cos45 = 43*gyök2/2/x
+    2x = 1849 cm2
+
+9. Feladat:
+    A két csoport összes köszönése 506 ezért kitudjuk számolni ezt a n(n-1) képlettel hiszen maguknak nem kösszönek.
+    Így kijön, hogy összesen 23 voltak. Egy emberhez 22 kösszönés tatozott így, ha elosztjuk a 198-at 22-vel megkapjuk, hogz hány angol volt. 9db.

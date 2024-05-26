@@ -1,18 +1,19 @@
 from collections import deque
+from re import split
 
 with open('./input.txt', 'r') as f:
   input = f.read()
   input = input.split("\n")
 
-  A = [i.split(" ") for i in input[input.index("A")+1:input.index("")]]
+  A = [split(" ", i) for i in input[input.index("A")+1:input.index("")]]
 
   input.remove("")
 
-  B = [i.split(" ") for i in input[input.index("B")+1:input.index("")]]
+  B = [split(" ", i) for i in input[input.index("B")+1:input.index("")]]
 
   input.remove("")
 
-  C = [i.split(" ") for i in input[input.index("C")+1:input.index("")]]
+  C = [split(" ", i) for i in input[input.index("C")+1:input.index("")]]
 
 def solve(maze):
   Row = len(maze)

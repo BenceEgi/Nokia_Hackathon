@@ -4,12 +4,13 @@
      v: 100m
 
 2. Feladat:
+    Ki próbáltam az összes kombinációt és az így kapott legnagyobb szám 320cm2 lett
     320 cm2
 
 3. Feladat:
        10x + 4y = 20
        5x + 12y = 20
-       x = 1,6
+       x = 1,6s
        y = 1s
 
 4. Feladat:
@@ -19,6 +20,8 @@
 6. Feladat:
 
 7. Feladat:
+    Mert nemtudnak 5 többen úgy állni, hogy ugyan az az ember legyen hozzájuk a legközelebb.s
+    5
 
 8. Feladat:
     A kiskockák átlóinak hossza gyök 2cm mivel a2 + b2 = c2.

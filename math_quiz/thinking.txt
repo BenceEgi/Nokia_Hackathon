@@ -20,8 +20,6 @@
 6. Feladat:
 
 7. Feladat:
-    Mert nemtudnak 5 többen úgy állni, hogy ugyan az az ember legyen hozzájuk a legközelebb.s
-    5
 
 8. Feladat:
     A kiskockák átlóinak hossza gyök 2cm mivel a2 + b2 = c2.

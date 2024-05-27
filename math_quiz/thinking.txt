@@ -17,6 +17,11 @@
     320 cm2
 
 3. Feladat:
+        Ha Jancsi 5km/h-val x óra teszi meg a távot akkor Juliska 10km x/2 idő alatt.
+        És ugyan ez ha Juliska 4km/h-val y idő alatt teszi meg a távot, akkor Jancsi a 12km/h-val y/3 idő alatt.
+
+        10x/2 + 12y/3 = 20
+        5x + 4y =
 
 4. Feladat:
        12

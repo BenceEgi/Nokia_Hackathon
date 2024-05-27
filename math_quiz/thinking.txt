@@ -1,27 +1,13 @@
 1. Feladat:
-     s = 300m
-     t1 = 20s
-     t2 = 5s
-     v = ?
-
-     v = s/t1
-     v = 300m / 20s
-     v = 15m/s
-     l = t2 * v
-     l = 5s * 15m/s
-     l = 75m
-
-     Tehát a vonat hossza 75m.
+     300+x/20 = x/5
+     mert állandó a sebesség
+     v: 100m
 
 2. Feladat:
     320 cm2
 
 3. Feladat:
-        Ha Jancsi 5km/h-val x óra teszi meg a távot akkor Juliska 10km x/2 idő alatt.
-        És ugyan ez ha Juliska 4km/h-val y idő alatt teszi meg a távot, akkor Jancsi a 12km/h-val y/3 idő alatt.
-
-        10x/2 + 12y/3 = 20
-        5x + 4y =
+        
 
 4. Feladat:
        12

@@ -10,8 +10,8 @@
 3. Feladat:
        10x + 4y = 20
        5x + 12y = 20
-       x = 1,6s
-       y = 1s
+       x = 1,6h
+       y = 1h
 
 4. Feladat:
        programmal lerajzoltam, és megszámoltam
